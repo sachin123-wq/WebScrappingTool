@@ -48,7 +48,7 @@ cd WebScrappingTool
 ## Run the API Server(uvicorn)
 
 ```
-app.router.routes:app --reload (Run inside the WebScrappingTool directory).
+uvicorn app.main:app --reload (Run inside the WebScrappingTool directory).
 Also start redis server(http://locahhost(127.0.0.1):6379)
 ```
 
